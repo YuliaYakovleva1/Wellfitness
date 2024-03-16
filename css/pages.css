@@ -1,0 +1,1459 @@
+.for__home {
+    margin-top: 30px;
+    background-color: #F6F6F6;
+}
+
+.for__home__menu__link::before,
+.for__fitness__menu__link::before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    align-self: stretch;
+    background: #F53B49;
+    width: 100%;
+    top: 24px;
+}
+
+.for__home__bread {
+    display: inline-block;
+    margin-top: 60px;
+    vertical-align: middle;
+}
+
+.for__home__bread__img {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.for__home__bread__text {
+    color: rgba(56, 66, 85, 0.60);
+    line-height: 140%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.for__home {
+    margin-bottom: 60px;
+}
+
+.for__home__card {
+    border-radius: 6px;
+    height: 540px;
+    width: 330px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-right: 28px;
+}
+
+.for__home__card:nth-child(4),
+.for__home__card:nth-child(8),
+.for__fitness__card:nth-child(3),
+.for__fitness__card:nth-child(6),
+.for__fitness__card:nth-child(9) {
+    margin-right: 0;
+}
+
+.for__home__img {
+    border-radius: 6px 6px 0 0;
+}
+
+.for__home__info {
+    padding: 30px;
+}
+
+.for__home__title {
+    color: #1A1A25;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.for__home__items {
+    vertical-align: middle;
+}
+
+.for__home__item a {
+    color: #1A1A25;
+    font-size: 16px;
+    line-height: 150%;
+    vertical-align: middle;
+}
+
+.for__home__item a:hover {
+    color: #F53B49;
+}
+
+.for__home__span {
+    color: #1A1A25;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.4;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.for__home__info img {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.for__fitness__card {
+    border-radius: 6px;
+    width: 450px;
+    height: 515px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-right: 28px;
+}
+
+
+/* Страница "Корзина" */
+.cart__card {
+    border-radius: 6px;
+    width: 929px;
+    height: 227px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.cart__card__img {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+}
+
+.cart__card__img img {
+    width: 160px;
+    object-fit: contain;
+}
+
+.cart__card__info {
+    margin: 12px 0 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+}
+
+.card__info__wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cart__card__title {
+    color: #1a1a25;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.cart__card_char {
+    width: 334px;
+    height: 64px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.cart__card__char__title {
+    color: #384255;
+    line-height: 19.6px;
+    margin-bottom: 10px;
+}
+
+.cart__card__char__value {
+    border: 1px solid rgba(144, 156, 181, 0.5);
+    background: #ffffff;
+    color: #384255;
+    font-weight: 700;
+    line-height: 19.6px;
+    padding: 6px;
+    border-radius: 6px;
+    position: relative;
+}
+
+#color {
+    padding-left: 32px;
+}
+
+#color::before {
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+#weight {
+    width: 42px;
+}
+
+.cart__card__price {
+    margin: 20px 20px 20px 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cart__card__price__value {
+    color: #1a1a25;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23.11px;
+}
+
+.cart__card__price__old {
+    height: 22px;
+    color: #858fa4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.75px;
+    text-decoration: line-through;
+}
+
+hr {
+    border: 1px solid rgba(127, 133, 145, 0.2);
+    width: 729px;
+    height: 0px;
+    margin-left: 20px;
+}
+
+.delete__item {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(144, 156, 181);
+    line-height: 140%;
+}
+
+.delete__text {
+    margin-right: 5px;
+}
+
+.delete__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.cart {
+    position: relative;
+}
+
+.purchase__block {
+    position: absolute;
+    width: 449px;
+    height: 227px;
+    right: 235px;
+    top: 50px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.purchase__sum {
+    margin-bottom: 10px;
+}
+
+.purchase__sum__text {
+    width: 160px;
+    color: rgb(245, 59, 73);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.purchase__sum__amount {
+    color: rgb(245, 59, 73);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 135.94%;
+}
+
+.purchase__goods {
+    margin-bottom: 30px;
+}
+
+.purchase__goods__line {
+    margin-bottom: 5px;
+}
+
+.purchase__goods__text,
+.purchase__goods__amount,
+.purchase__goods__discount {
+    width: 160px;
+    color: rgb(56, 66, 85);
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+/* Страница "Каталог" */
+
+.catalog__title,
+.blog__title {
+    margin: 40px 0 30px 0;
+}
+
+.tabs__nav-btn2 {
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 8px 12px 9px 12px;
+    background: rgba(144, 156, 181, 0.2);
+    margin-right: 10px;
+    font-weight: 700;
+    line-height: 16.94px;
+    cursor: pointer;
+    color: #384255;
+    margin-bottom: 5px;
+}
+
+.tabs__nav-btn2:hover,
+.tabs__nav-btn2.active {
+    color: #ffffff;
+    background: #f53b49;
+}
+
+.tabs__content {
+    margin-bottom: 20px;
+    white-space: nowrap;
+    height: 100%;
+}
+
+/* Страница "Блог" */
+.nav__link2__active {
+    background: #384255;
+    border-radius: 6px;
+}
+
+.news_card2 {
+    height: 440px;
+    width: 450px;
+    cursor: pointer;
+}
+
+.news_card2:hover img {
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+
+/* Страница "Бренды" */
+.brand__img {
+    width: 280px;
+    cursor: pointer;
+}
+
+.tabs__content__main {
+    height: 100%;
+}
+
+/* Страница "О компании" */
+.about__card {
+    width: 1410px;
+    height: 500px;
+    background-color: #000000;
+    margin-bottom: 50px;
+    background-image: url(../img/main/about/about.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about__text {
+    font-size: 34px;
+    color: #fff;
+    width: 406px;
+    height: 264px;
+    padding: 70px 0 0 70px;
+}
+
+.about__description {
+    width: 1020px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.about__description__title {
+    color: #384255;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.about__description__text {
+    color: #384255;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about__description__wrap {
+    margin-bottom: 50px;
+}
+
+
+/* Страница "Где купить" */
+.where__title {
+    color: #384255;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+
+.where__card {
+    width: 1410px;
+    height: 350px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    background-image: url(../img/main/where/vegas.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 60%;
+    border-radius: 6px;
+}
+
+.where__card__info {
+    width: 625px;
+    padding: 40px;
+    color: #384255;
+}
+
+.where__card__text {
+    font-size: 24px;
+    line-height: 32.52px;
+    margin-bottom: 20px;
+}
+
+.where__card__time,
+.where__card__tel {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.where__card__tel {
+    font-weight: 700;
+}
+
+.where__cards {
+    margin-bottom: 80px;
+}
+
+.where__card__partner {
+    width: 330px;
+    height: 194px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-right: 29px;
+    padding: 30px;
+    color: #384255;
+    border-radius: 6px;
+}
+
+.where__card__partner:nth-child(4) {
+    margin-right: 0;
+}
+
+.where__card__partner__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.where__card__partner__address {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+.where__card__partner__tel,
+.where__card__partner__url {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Страница "Контакты" */
+.contacts__btn__img {
+    padding-right: 10px;
+}
+
+.contacts__url {
+    margin-bottom: 40px;
+}
+
+.contacts__map {
+    width: 1410px;
+    height: 450px;
+}
+
+.contacts__info__title,
+.contacts__info__tel {
+    width: 330px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.contacts__line {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+.contacts__info {
+    margin-bottom: 30px;
+}
+
+.contacts__info__title {
+    color: rgb(56, 66, 85);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.contacts__info__url {
+    width: 680px;
+    height: 50px;
+}
+
+/* Страница "Сервис" */
+.service__img {
+    position: relative;
+}
+
+.service__img::after {
+    content: url(../img/main/service/play.png);
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    opacity: 70%;
+}
+
+.service__img:hover::after {
+    opacity: 100%;
+}
+
+/* Страница "Статья"  */
+.article {
+    margin-bottom: 80px;
+}
+
+.article__back {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.article__back__link {
+    color: #4B7EE8;
+}
+
+.article__main {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.article__main img {
+    margin-bottom: 50px;
+}
+
+.article__main__text {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.article__main__text {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+/* Страница "Карточка товара" (продукт) */
+.product__main {
+    background-color: #fff;
+}
+
+.product__card {
+    margin-top: 40px;
+}
+
+.product__img {
+    width: 560px;
+    margin-right: 36px;
+}
+
+.product__brand {
+    width: 362px;
+    margin-right: 29px;
+}
+
+.product__icons {
+    width: 418px;
+    justify-content: end;
+}
+
+.product__icon__text {
+    color: rgb(26, 26, 37);
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.product__icon {
+    text-align: center;
+    margin-right: 12px;
+}
+
+.product__icon__img {
+    margin-bottom: 8px;
+}
+
+.product__chars {
+    margin-top: 30px;
+}
+
+.product__char {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(56, 66, 85);
+}
+
+.product__char__span {
+    color: rgb(144, 156, 181);
+}
+
+.all__chars {
+    color: rgb(75, 126, 232);
+    line-height: 140%;
+}
+
+.product__icons2 {
+    margin-top: 30px;
+}
+
+.product__icons2__text {
+    margin-left: 8px;
+    margin-right: 30px;
+}
+
+.product__icon2 {
+    margin-left: 0;
+}
+
+.product__info2 {
+    width: 400px;
+    height: 336px;
+    border-radius: 6px;
+    background: rgb(247, 247, 247);
+    padding: 40px 30px 30px 30px;
+}
+
+.product__info2__block {
+    margin-bottom: 18px;
+}
+
+.product__price {
+    margin-bottom: 18px;
+}
+
+.product__price__current {
+    color: rgb(26, 26, 37);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.product__price__old {
+    color: rgb(133, 143, 164);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 135.94%;
+    text-decoration-line: line-through;
+    margin-left: 8px;
+}
+
+.product__diller {
+    width: 287px;
+    height: 33px;
+    border-radius: 4px;
+    background: rgb(144, 156, 181);
+    margin-bottom: 20px;
+}
+
+.product__diller__price {
+    padding: 4px 10px 4px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 135.94%;
+}
+
+.product__diller__price__span {
+    padding: 4px 10px 4px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.product__bonus {
+    margin-bottom: 22px;
+}
+
+.product__bonus__sum {
+    line-height: 140%;
+    color: rgb(245, 59, 73);
+}
+
+.product__bonus__sum__span {
+    margin: 0px 10px;
+    color: rgb(56, 66, 85);
+}
+
+.product__btn {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.product__payment__text {
+    color: rgb(245, 59, 73);
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.product__config__wrap {
+    justify-content: end;
+    padding-bottom: 80px;
+}
+
+.product__config {
+    border-radius: 6px;
+    background: rgb(247, 247, 247);
+    width: 810px;
+    height: 540px;
+    padding: 30px;
+}
+
+.product__config__title {
+    color: rgb(26, 26, 37);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 13px;
+}
+
+.product__config__block {
+    margin-bottom: 13px;
+}
+
+.product__config__span {
+    width: 90px;
+    height: 20px;
+    color: rgb(56, 66, 85);
+    line-height: 140%;
+}
+
+.product__config__values {
+    margin-left: 8px;
+    width: 600px;
+}
+
+.product__config__value {
+    margin-right: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(144, 156, 181, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.product__value__span {
+    color: rgb(144, 156, 181);
+    margin-left: 10px;
+}
+
+.product__config__value:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(245, 59, 73);
+    border-radius: 4px;
+}
+
+.product__color {
+    padding-left: 35px;
+}
+
+.product__color::before {
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#black.product__color::before {
+    background: #000000;
+}
+
+#graphite.product__color::before {
+    background: rgb(80, 80, 80);
+}
+
+#white.product__color::before {
+    background: #fff;
+    border: 1px solid rgb(144, 156, 181);
+    box-sizing: border-box;
+}
+
+#red.product__color::before {
+    background: rgb(245, 59, 73);
+}
+
+.product__treadmill__card {
+    background-image: url(../img/main/product/treadmill.png);
+}
+
+.product__treadmill__card__text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.product__treadmill__card__video {
+    margin: 20px 0 0 70px;
+}
+
+.product__treadmill__card__img {
+    margin-right: 20px;
+}
+
+.product__treadmill__card__link {
+    color: rgb(245, 59, 73);
+    font-size: 16px;
+    line-height: 150%;
+    padding-top: 10px;
+}
+
+.product__description {
+    padding-bottom: 60px;
+}
+
+.product__description__block1,
+.product__description__block2 {
+    width: 1410px;
+    margin-bottom: 60px;
+}
+
+.product__description__block1 {
+    height: 582px;
+}
+
+.product__description__block2 {
+    height: 446px;
+    justify-content: space-between;
+}
+
+.product__description__block1__info {
+    width: 640px;
+    padding: 66.5px 50px;
+}
+
+.product__description__block1__info__title {
+    color: rgb(26, 26, 37);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.product__description__block1__info__text {
+    color: rgb(26, 26, 37);
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.product__description__block2__info {
+    width: 697px;
+    padding: 79.5px 0;
+}
+
+.registration__rec {
+    color: rgb(56, 66, 85);
+    margin-top: 15px;
+}
+
+/* Страница "Личный кабинет" */
+.lk__blocks {
+    margin-bottom: 100px;
+}
+
+.lk__block__left {
+    width: 1080px;
+}
+
+.lk__block__right {
+    width: 300px;
+    position: relative;
+}
+
+.lk__card {
+    width: 330px;
+    height: 208px;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    color: rgb(56, 66, 85);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.lk__card:hover {
+    background: rgb(245, 59, 73);
+    color: rgb(255, 255, 255);
+}
+
+.lk__card__title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.lk__card__subtitle {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+
+.lk__card__date {
+    margin-bottom: 57px;
+}
+
+.lk__card__link {
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.lk__user {
+    padding: 12px 30px;
+}
+
+.lk__user__name {
+    color: rgb(56, 66, 85);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.lk__user__email,
+.lk__user__phone {
+    color: rgb(56, 66, 85);
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.lk__user__phone {
+    margin-bottom: 12px;
+}
+
+.lk__user__exit {
+    color: rgb(75, 126, 232);
+    font-weight: 700;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+.admin_link {
+    color: #4B7EE8;
+}
+
+.lk__line {
+    transform: rotate(90.00deg);
+    position: absolute;
+    top: 316px;
+    left: -385px;
+}
+
+.lk__block__right__mobile {
+    display: none;
+}
+
+/* Страница "Информация о пользователях" */
+.admin__table__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.center-aligh {
+    text-align: center;
+}
+
+/* Страница входа в личный кабинет */
+
+.aut__form {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 960px) {
+    .for__home__card {
+        height: 521px;
+        width: 285px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+    .for__home__card img {
+        width: 285px;
+    }
+
+    .for__home__card:nth-child(3),
+    .for__home__card:nth-child(6) {
+        margin-right: 0;
+    }
+
+    .for__home__card:nth-child(7),
+    .for__home__card:nth-child(8) {
+        display: none;
+    }
+
+    .for__home__card:nth-child(4) {
+        margin-right: 20px;
+    }
+
+    .for__home__info img {
+        width: 100%;
+    }
+
+    .for__fitness__card {
+        width: 280px;
+        height: 540px;
+        margin-right: 28px;
+    }
+
+    .for__fitness__img {
+        width: 280px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .for__home__item {
+        width: 200px;
+    }
+
+    .news__card__960,
+    .news__card__960 img {
+        width: 440px;
+    }
+
+    .about__card {
+        width: 920px;
+        height: 389px;
+        background-size: 70%;
+    }
+
+    .about__text {
+        font-size: 24px;
+        width: 270px;
+        height: 186px;
+        padding: 50px 0 0 30px;
+    }
+
+    .about__description {
+        width: 920px;
+        margin-left: 0;
+    }
+
+    .where__card__partner,
+    .where__card__partner:nth-child(4) {
+        width: 290px;
+        margin-right: 20px;
+    }
+
+    .where__card__partner:nth-child(3),
+    .where__card__partner:nth-child(6) {
+        margin-right: 0;
+    }
+
+    .where__card {
+        width: 920px;
+        height: 300px;
+        background-size: 52%;
+    }
+
+    .where__card__info {
+        width: 470px;
+    }
+
+    .where__card__text {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .where__card__time,
+    .where__card__tel {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .where__card__tel {
+        font-weight: 700;
+    }
+
+    .contacts__info__title,
+    .contacts__info__tel,
+    .contacts__info__url {
+        width: 280px;
+    }
+
+    .contacts__card__text {
+        margin-bottom: 0;
+    }
+
+    .contacts__url {
+        margin-bottom: 30px;
+    }
+
+    .service__card {
+        width: 440px;
+        margin: 30px 10px 0 0;
+        height: 320px;
+    }
+
+    .service__img img {
+        width: 440px;
+    }
+
+    .tabs__content__main {
+        height: 100%;
+    }
+
+    .tabs__nav {
+        margin-bottom: 20px;
+    }
+
+    .article__main {
+        width: 930px;
+    }
+
+    .article__main img {
+        width: 600px;
+    }
+
+    .lk__card {
+        width: 300px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lk__user {
+        padding: 12px 20px;
+        width: 200px;
+    }
+
+    .lk__line {
+        display: none;
+    }
+
+    .lk__block__left {
+        width: 620px;
+    }
+
+    .product__config {
+        width: 810px;
+    }
+
+    .product__config__wrap {
+        justify-content: left;
+        padding-top: 40px;
+    }
+
+    .product__treadmill__card__text {
+        font-size: 16px;
+    }
+
+    .product__treadmill__card__video {
+        margin-left: 30px;
+    }
+
+    .product__description__block1 img,
+    .product__description__block2 img {
+        width: 450px;
+    }
+
+    .product__description__block1 img {
+        height: 390px;
+    }
+
+    .product__description__block2 img {
+        height: 350px;
+    }
+
+    .product__description__block1__info {
+        width: 484px;
+        padding: 12px;
+    }
+
+    .product__description__block1__info__text {
+        font-size: 14px;
+    }
+
+    .product__description__block1,
+    .product__description__block2 {
+        margin-bottom: 40px;
+        height: 420px;
+    }
+
+    .product__description__block2__info {
+        width: 440px;
+        padding: 45px 0;
+    }
+
+    .product__description__block2 {
+        width: 920px;
+        height: 340px;
+    }
+
+    .purchase__block {
+        position: static;
+    }
+
+    .justify__content__start {
+        justify-content: start;
+    }
+}
+
+
+
+@media(max-width: 300px) {
+    .about__card {
+        width: 290px;
+        height: 500px;
+        background-position: bottom;
+        background-size: 130%;
+    }
+
+    .about__text {
+        font-size: 24px;
+        width: 270px;
+        height: 186px;
+        padding: 50px 0 0 30px;
+    }
+
+    .about__description {
+        width: 290px;
+        margin-left: 0;
+    }
+
+    .where__card {
+        width: 290px;
+        height: 397px;
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+    .where__title {
+        font-size: 22px;
+    }
+
+    .where__card__info {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .where__card__text,
+    .where__card__time,
+    .where__card__tel {
+        font-size: 12px;
+    }
+
+    .contacts__url {
+        display: none;
+    }
+
+    .where__card__tel {
+        margin-bottom: 20px;
+    }
+
+    .where__card__partner,
+    .where__card__partner:nth-child(4) {
+        width: 290px;
+        margin-bottom: 30px;
+        margin-right: 0;
+        padding: 16px;
+    }
+
+    .display__none {
+        display: none;
+    }
+
+    .service__card {
+        width: 290px;
+        margin: 30px 10px 0 0;
+        height: 230px;
+    }
+
+    .service__img img {
+        width: 290px;
+    }
+
+    .service__title {
+        font-size: 14px;
+    }
+
+    .service__text {
+        font-size: 12px;
+    }
+
+    .news__card__960,
+    .news__card__960 img {
+        width: 290px;
+    }
+
+    .news__card__960 {
+        height: 360px;
+        margin-bottom: 10px;
+    }
+
+    .article__main {
+        width: 290px;
+    }
+
+    .article__main img {
+        width: 290px;
+    }
+
+    .lk__card {
+        width: 290px;
+        height: 190px;
+    }
+
+    .lk__block__right__mobile {
+        display: block;
+    }
+
+    #lk__user {
+        display: none;
+    }
+
+    .lk__card__title {
+        font-size: 16px;
+    }
+
+    .lk__card__subtitle {
+        font-size: 14px;
+    }
+
+    .product__img img {
+        width: 290px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .product__icons2__text {
+        margin-right: 130px;
+        margin-bottom: 15px;
+    }
+
+    .product__icons {
+        width: 290px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .product__info2 {
+        padding: 30px 5px;
+        margin-top: 40px;
+    }
+
+    .product__price__current {
+        font-size: 24px;
+    }
+
+    .product__config {
+        width: 290px;
+        height: 100%;
+    }
+
+    .product__config__values {
+        margin-left: 0;
+        width: 290px;
+    }
+
+    .product__config__span {
+        margin-bottom: 10px;
+    }
+
+    .about__text {
+        padding-top: 30px;
+        height: 170px;
+    }
+
+    .product__treadmill__card__video {
+        margin-top: 0;
+    }
+
+    .product__description__block1 img {
+        width: 290px;
+        height: 240px;
+    }
+
+    .product__description__block1 {
+        height: 240px;
+    }
+
+    .product__description__block1__info__text {
+        width: 290px;
+        font-size: 12;
+    }
+
+    .product__description__block1__info,
+    .product__description__block2 img {
+        display: none;
+    }
+
+    .purchase__block {
+        width: 290px;
+        height: 300px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 290px;
+        overflow-x: auto;
+    }
+}
