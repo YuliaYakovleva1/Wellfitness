@@ -11,6 +11,6 @@ Wellfitness - это интернет-магазин, специализирую
 - *СУБД:* MySQL
 
 # Начало работы
-git clone https://github.com/iliafilimonov1/Web-323-airbnb.git
-cd web-323-airbnb
+git clone https://github.com/YuliaYakovleva1/Wellfitness.git
+cd Wellfitness
 
