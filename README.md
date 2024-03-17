@@ -6,8 +6,8 @@ Wellfitness is an online store specializing in the sale of high quality sports e
 
 The Wellfitness project is developed using the following technologies:
 
-Programming Language: PHP
-Frontend: HTML, CSS, JavaScript
+Programming Language: PHP; 
+Frontend: HTML, CSS, JavaScript; 
 DBMS: MySQL
 
 # Getting Started
