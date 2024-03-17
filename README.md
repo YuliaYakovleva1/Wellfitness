@@ -13,5 +13,3 @@ DBMS: MySQL
 # Getting Started
 
 git clone https://github.com/YuliaYakovleva1/Wellfitness.git cd Wellfitness
-
-Translated with DeepL.com (free version)
