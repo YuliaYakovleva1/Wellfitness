@@ -1,16 +1,17 @@
-# Wellfitness - Интернет-магазин спортивного оборудования
+# Wellfitness is an online store of sports equipment
 
-Wellfitness - это интернет-магазин, специализирующийся на продаже высококачественного спортивного оборудования. Магазин предлагает широкий ассортимент товаров для здоровья и фитнеса, чтобы помочь вам достичь ваших фитнес-целей.
+Wellfitness is an online store specializing in the sale of high quality sports equipment. The store offers a wide range of health and fitness products to help you achieve your fitness goals.
 
-# Технологии
+#Technology
 
-Проект Wellfitness разработан с использованием следующих технологий:
+The Wellfitness project is developed using the following technologies:
 
-- *Язык программирования:* PHP
-- *Фронтенд:* HTML, CSS, JavaScript
-- *СУБД:* MySQL
+Programming Language: PHP
+Frontend: HTML, CSS, JavaScript
+DBMS: MySQL
 
-# Начало работы
-git clone https://github.com/YuliaYakovleva1/Wellfitness.git
-cd Wellfitness
+# Getting Started
 
+git clone https://github.com/YuliaYakovleva1/Wellfitness.git cd Wellfitness
+
+Translated with DeepL.com (free version)
