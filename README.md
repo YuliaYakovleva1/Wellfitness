@@ -2,7 +2,7 @@
 
 Wellfitness is an online store specializing in the sale of high quality sports equipment. The store offers a wide range of health and fitness products to help you achieve your fitness goals.
 
-#Technology
+# Technology
 
 The Wellfitness project is developed using the following technologies:
 
